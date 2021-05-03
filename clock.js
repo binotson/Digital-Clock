@@ -18,8 +18,8 @@ const tick = () =>{
 
 
     //Converting the 24 hours formate into 12 hour formate 
-    if(hh === 24){
-        hh = hh - 12
+    if(hh === 12){
+        hh = 12
         meridiem = 'AM';
     }
     else if( hh === 12 ){
