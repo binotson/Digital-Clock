@@ -52,15 +52,9 @@ const tick = () =>{
         hh = hh - 12
         meridiem = 'PM';
     }
-
-    hours.textContent = `${hh<10? `0${hh}`:hh}`;
-    minutes.textContent =`${mm<10? `0${mm}`:mm}`;
-    seconds.textContent =`${ss<10? `0${ss}`:ss}`
-    checkMeridiem.textContent = meridiem;
-    date.textContent = current.toLocaleDateString();
-    day.textContent = getDayName(currentDay);
-    
 }
-
 ```
+new `Date()` creates a date object with the current date and time\
+in our fucntion `getSeconds();` will return current seconds\
+`getMinutes()` will return current Minutes\
 
