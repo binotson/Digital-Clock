@@ -22,8 +22,9 @@ For styling i have used Bootstrap and custom styling you can get the CSS code fr
 JavaScript Code
 ================
 In `clock.js` file you can get the Javascript code
+---
+`clock.js` have 3 main sections
 
-## `clock.js` have 3 main sections
 - `tick()` function
 - `getDayName()` fucntion
 - `setInterval()` 
